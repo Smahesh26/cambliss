@@ -9,14 +9,15 @@ import LandingBannerArea from "./landing-banner-area";
 import MovieSectionSix from "./movie-section-six";
 import ContactSection from "@components/common/contact/contact-area";
 import MovieSliderSeven from "@components/elements/slider/movie-slider/movie-slider-seven";
+import VideoAreaSection from "@components/home-two/video-area-section";
 
 const index = () => {
   return (
     <>
       <Header />
       <main>
-        <MovieSliderThere />
-        <MovieSliderFour />
+      <VideoAreaSection /> 
+        {/* <MovieSliderFour /> */}
         <MovieSliderFive />
         <MovieSliderSix />
         <LandingBannerArea />

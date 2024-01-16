@@ -7,6 +7,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import useMovieFatching from "@hooks/use-movie";
 import Preloader from "@components/preloader";
+const Genre=[
+  { id: 1, name: "Animation" },
+  { id: 2, name: "Visual Production" },
+  { id: 3, name: "Digital Marketing" },
+  { id: 4, name: "UI / UX" },
+  { id: 5, name: "Interior Designing"},
+  { id: 6, name: "Branding"},
+  {id: 7 , name:"Website Development"},
+ 
+  {id: 8 , name:"Advertisement"},
+]
 
 const MovieSliderFive = () => {
   const movies = useMovieFatching();
