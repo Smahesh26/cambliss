@@ -148,7 +148,7 @@ const TeamSection = () => {
     },
     {
       _id: "5",
-      teamName: "Pravath",
+      teamName: "Pravat",
       // director: "Director",
       designation: "Interior Designer",
       teamImg: pravath,

@@ -19,8 +19,8 @@ const index = () => {
     <>
     <Header/>
     
-      <main>
-      <VideoAreaSection />
+      <main><br/><br/><br/><br/><br/><br/>
+      {/* <VideoAreaSection /> */}
         <HeroTwo />
         <HomeAboutTwo />
         <ServiceTwo />
