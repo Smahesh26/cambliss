@@ -88,22 +88,21 @@
 
 
 import Link from "next/link";
-
 import ServiceScroll from "@components/elements/slider/scroll-area-slider/service-scroll";
+import React from "react";
 import useGlobalContext from "@hooks/use-context";
-import React, { useEffect, useState } from "react";
 
 const manuallyWrittenServices = [
   {
-    _id: "1",
+    link: "/service-details/1",
     serviceNum: "01",
     title: "Website Design & Development",
-    description: "Our website design & development services are tailored to meet the unique needs of your bussiness",
+    description: "Our website design & development services are tailored to meet the unique needs of your business",
     serviceBtn: "Learn More",
     delay: "0.3s",
   },
   {
-    _id: "2",
+    link: "/branding",
     serviceNum: "02",
     title: "Branding & Creative Services",
     description: "Our approach to branding is collaborative involving clients in every step to capture your vision.",
@@ -111,33 +110,33 @@ const manuallyWrittenServices = [
     delay: "0.4s",
   },
   {
-    _id: "3",
+    link: "/Animation",
     serviceNum: "03",
     title: "Animation",
-    description: "We bring your imagination to live through stunning 2D & 3D animations and captivate audience.",
+    description: "We bring your imagination to life through stunning 2D & 3D animations and captivate the audience.",
     serviceBtn: "Learn More",
     delay: "0.5s",
   },
   {
-    _id: "4",
+    link: "/UI-UX",
     serviceNum: "04",
     title: "UI/UX",
-    description: "Cambliss specializes in UI/UX , Where your Functionality Meets Aesthetics.",
+    description: "Cambliss specializes in UI/UX, where your functionality meets aesthetics.",
     serviceBtn: "Learn More",
     delay: "0.6s",
   },
   {
-    _id: "5",
+    link: "/Digital-Marketing",
     serviceNum: "05",
     title: "Digital Marketing",
-    description: "From SEO to PPC advertising to social media marketing, cambliss covers all aspects of marketing.",
+    description: "From SEO to PPC advertising to social media marketing, Cambliss covers all aspects of marketing.",
     serviceBtn: "Learn More",
     delay: "0.6s",
   },
   {
-    _id: "6",
+    link: "/Visual-Production",
     serviceNum: "06",
-    title: "TV Program",
+    title: "Visual Production",
     description: "A Mix of Everything just for you.",
     serviceBtn: "Learn More",
     delay: "0.6s",
@@ -177,13 +176,13 @@ const ServiceTwo = () => {
                 <div
                   className="fm-single-services-content mb-20 wow fadeInUp"
                   data-wow-delay={item.delay}
-                  key={item._id}
+                  key={item.serviceNum}
                 >
                   <span className="services-num">{item.serviceNum}</span>
                   <h4 className="fm-service-title">
                     <Link
                       className="fm-content-title"
-                      href={`/service-details/${item._id}`}
+                      href={item.link}
                     >
                       {item.title}
                     </Link>
@@ -191,7 +190,7 @@ const ServiceTwo = () => {
                   <p className="fm-services-text-2">{item.description}</p>
                   <div className="fm-btn services-btn-2">
                     <Link
-                      href={`/service-details/${item._id}`}
+                      href={item.link}
                       className="border-btn is-white"
                     >
                       {item.serviceBtn}

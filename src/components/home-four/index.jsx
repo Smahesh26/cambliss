@@ -14,9 +14,9 @@ import FooterOne from '@layout/footers/footer-one';
 const index = () => {
     return (
         <>
-        <Header/>
+        <Header /><br/><br/>
         <main>
-          <HeroSliderTwo/>
+       
           <HomeAboutFour/>
           <HistorySectionFour/>
           <PortFolioSectionFour/>

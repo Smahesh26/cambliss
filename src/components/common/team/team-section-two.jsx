@@ -6,14 +6,14 @@ import SocialIcon from "../social-icon/SocialIcon";
 
 const TeamSectionTwo = ({ teamBottomBorder }) => {
   const [teams, setTeams] = useState([]);
-  useEffect(() => {
-    axios
-      .get(`${process.env.BASE_URL}team/all-team`)
-      .then((res) => {
-        setTeams(res.data);
-      })
-      .catch((err) => console.log(err));
-  }, []);
+  // useEffect(() => {
+  //   axios
+  //     .get(`${process.env.BASE_URL}team/all-team`)
+  //     .then((res) => {
+  //       setTeams(res.data);
+  //     })
+  //     .catch((err) => console.log(err));
+  // }, []);
 
   return (
     <>
@@ -30,7 +30,7 @@ const TeamSectionTwo = ({ teamBottomBorder }) => {
                 </span>
                 <div>
                   <h2 className="section-main-title title-anim">
-                    Meet my Team
+                    Meet Our Team
                   </h2>
                 </div>
               </div>
@@ -44,10 +44,10 @@ const TeamSectionTwo = ({ teamBottomBorder }) => {
                 key={item._id}
               >
                 <div className="fm-director-team-single team__item">
-                  <Link
+                  {/* <Link
                     className="fm-director-team"
                     href={`/team-details/${item._id}`}
-                  >
+                  > */}
                     <Image
                       src={item.teamImg}
                       width={500}
@@ -55,16 +55,15 @@ const TeamSectionTwo = ({ teamBottomBorder }) => {
                       style={{ width: "100%", height: "auto" }}
                       alt="img not found"
                     />
-                    <span className="fm-director-sign">Daniyel</span>
-                  </Link>
+                  
                   <div className="fm-director-content">
                     <span className="fm-director-designation body-color">
                       {item.designation}
                     </span>
                     <h4 className="fm-director-name title-color">
-                      <Link href={`/team-details/${item._id}`}>
+                      {/* <Link href={`/team-details/${item._id}`}>
                         {item.teamName}
-                      </Link>
+                      </Link> */}
                     </h4>
                     <SocialIcon socialWrapperClass="fm-director-social" />
                   </div>

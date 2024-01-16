@@ -18,7 +18,7 @@ const index = () => {
         <Breadcrumb title="About Us" subTitle="About Us" />
         <ServicesSection />
         <AboutArea />
-        {/* <TestimonialSliderOne /> */}
+      
         <AchievementArea />
         <TeamSectionTwo teamBottomBorder={true} />
         <BrandAreaSection

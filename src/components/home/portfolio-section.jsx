@@ -120,7 +120,7 @@ const PortfolioSection = () => {
     {
       _id: "5",
       // title: "Project 2",
-      subTitle: "TV Program",
+      subTitle: "Visual Production",
       image: tv,
       delay: "0.6s",
     },

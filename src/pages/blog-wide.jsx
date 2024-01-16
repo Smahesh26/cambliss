@@ -7,7 +7,7 @@ import BlogWideArea from '@components/blog-wide'
 const BlogWide = () => {
     return (
         <Wrapper>
-            <SEO pageTitle="Faime" />
+            <SEO pageTitle="CAMBLISS" />
             <BlogWideArea />
         </Wrapper>
     );

@@ -6,7 +6,7 @@ import ServiceDetails from "@components/service-details";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Faime" />
+      <SEO pageTitle="CAMBLISS" />
       <ServiceDetails />
     </Wrapper>
   );

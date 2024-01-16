@@ -10,7 +10,7 @@ const ServiceDetails = () => {
 
   return (
     <Wrapper>
-      <SEO pageTitle="Faime" />
+      <SEO pageTitle="CAMBLISS" />
       <ServiceDetailsPage id={id} />
     </Wrapper>
   );

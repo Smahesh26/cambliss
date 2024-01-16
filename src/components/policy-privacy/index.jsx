@@ -9,7 +9,8 @@ const index = () => {
     <>
       <Header />
       <main>
-        <Breadcrumb title="Privacy & Policy " subTitle="Privacy & Policy" />
+      <Breadcrumb />
+        {/* <Breadcrumb title="Privacy & Policy " subTitle="Privacy & Policy" /> */}
         <section className="terms_conditions_section section_space_lg pt-120 pb-60">
           <div className="container">
             <div className="row">

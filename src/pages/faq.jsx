@@ -6,7 +6,7 @@ import FaqQuestion from '@components/faq'
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Faime" />
+      <SEO pageTitle="CAMBLISS" />
       <FaqQuestion />
     </Wrapper>
   );

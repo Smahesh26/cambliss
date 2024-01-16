@@ -6,7 +6,7 @@ import PortfolioDetailsPage from "@components/portfolo-details-page";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Faime" />
+      <SEO pageTitle="CAMBLISS" />
       <PortfolioDetailsPage />
     </Wrapper>
   );

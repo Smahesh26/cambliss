@@ -1,9 +1,12 @@
 import React from "react";
-import PortfolioImgOne from "@assets/img/portfolio/p-details/img-1.jpg";
-import PortfolioImgTwo from "@assets/img/portfolio/p-details/img-3.jpg";
-import PortfolioImgThere from "@assets/img/portfolio/p-details/img-2.jpg";
-import PortfolioImgFour from "@assets/img/portfolio/p-details/img-4.jpg";
-import PortfolioImgFive from "@assets/img/portfolio/p-details/img-5.jpg";
+import PortfolioImgOne from "@assets/img/portfolio/p-details/file/1.jpeg";
+
+import PortfolioImgThree from "@assets/img/portfolio/p-details/file/3.jpeg";
+import PortfolioImgFour from "@assets/img/portfolio/p-details/file/4.jpeg";
+import PortfolioImgFive from "@assets/img/portfolio/p-details/file/5.jpeg";
+import PortfolioImgsix from "@assets/img/portfolio/p-details/file/6.jpeg";
+import PortfolioImgseven from "@assets/img/portfolio/p-details/file/7.jpeg";
+import PortfolioImgeight from "@assets/img/portfolio/p-details/file/8.jpeg";
 import Image from "next/image";
 //swipper
 import { Autoplay } from "swiper";
@@ -16,13 +19,10 @@ const PortfolioSliderTwo = () => {
       id: 1,
       image: PortfolioImgOne,
     },
-    {
-      id: 2,
-      image: PortfolioImgTwo,
-    },
+    
     {
       id: 3,
-      image: PortfolioImgThere,
+      image: PortfolioImgThree,
     },
     {
       id: 4,
@@ -31,6 +31,18 @@ const PortfolioSliderTwo = () => {
     {
       id: 5,
       image: PortfolioImgFive,
+    },
+    {
+      id: 6,
+      image: PortfolioImgsix,
+    },
+    {
+      id: 7,
+      image: PortfolioImgseven ,
+    },
+    {
+      id: 8,
+      image: PortfolioImgeight,
     },
   ];
   return (

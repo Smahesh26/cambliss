@@ -6,7 +6,7 @@ import Pricing from '@components/pricing'
 const index = () => {
     return (
         <Wrapper>
-            <SEO pageTitle="Faime" />
+            <SEO pageTitle="CAMBLISS" />
             <Pricing />
         </Wrapper>
     );

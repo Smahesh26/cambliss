@@ -6,7 +6,7 @@ import ShopDetails from "@components/shop-details/shop-main-area";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Faime" />
+      <SEO pageTitle="CAMBLISS" />
       <ShopDetails />
     </Wrapper>
   );

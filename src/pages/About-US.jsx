@@ -6,7 +6,7 @@ import HomeFour from '../components/home-four'
 const index = () => {
     return (
         <Wrapper>
-            <SEO pageTitle="Faime" />
+            <SEO pageTitle="CAMBLISS" />
             <HomeFour />
         </Wrapper>
     );

@@ -7,7 +7,7 @@ import Wrapper from "@layout/wrapper";
 export default function Login() {
   return (
     <Wrapper>
-      <SEO pageTitle='Faime' />
+      <SEO pageTitle='CAMBLISS' />
       <Breadcrumb title="Login" sub="Login" />
       <LoginArea />
     </Wrapper>

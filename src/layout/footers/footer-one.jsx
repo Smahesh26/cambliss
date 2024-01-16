@@ -22,7 +22,7 @@ const FooterOne = () => {
           <div className="footer-area-5 section-spacing-top pos-rel">
             <div
               className="footer-bg-3"
-              style={{ backgroundImage: `url(${bgImage.src})` }}
+              // style={{ backgroundImage: `url(${bgImage.src})` }}
             ></div>
             <div className="container">
               <div className="footer-middle-area">
@@ -38,7 +38,10 @@ const FooterOne = () => {
                   </div>
                   <div className="footer-text">
                     <p>
-                      Turning your bussiness ideas into smart digital products.
+                    <Link href="/">Home</Link ><br/>
+                    <Link href="/About-US">About Us</Link ><br/>
+                    <Link href="/Services">Services</Link ><br/>
+                    <Link href="/contact">Contact</Link ><br/>
                     </p>
                   </div>
                 </div>

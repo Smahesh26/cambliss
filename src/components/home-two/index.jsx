@@ -1,6 +1,7 @@
 import React from "react";
 import HomeAboutTwo from "../abouts/home-about-two";
 import ServiceTwo from "./service-section-two";
+import ServiceSectionThere from "@components/home-there/service-section-there";
 import PortfolioSectionTwo from "./portfolio-section-two";
 import TestimonialSliderOne from "@components/elements/slider/testimonial-slider/testimonial-slider-one";
 import BlogSectionTwo from "./blog-section-two";
@@ -11,6 +12,7 @@ import FooterOne from "@layout/footers/footer-one";
 import HeaderTwo from "@layout/headers/header-two";
 import HeroTwo from "./hero-two";
 import { Header } from "@layout/index";
+import PricingSection from "@components/service/pricing-section";
 
 const index = () => {
   return (
@@ -27,6 +29,7 @@ const index = () => {
         {/* <BlogSectionTwo/> */}
         
         <BrandAreaSection />
+        <PricingSection/>
         <ContactSection />
       </main>
       <FooterOne />

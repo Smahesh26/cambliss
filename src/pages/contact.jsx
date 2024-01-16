@@ -6,7 +6,7 @@ import Contact from '@components/contact'
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Faime" />
+      <SEO pageTitle="CAMBLISS" />
       <Contact />
     </Wrapper>
   );

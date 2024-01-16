@@ -14,7 +14,7 @@ const Menus = () => {
           {menu.secondaryDropdown === true || <Link href={menu.link}> {menu.title}</Link>}
 
 
-          {menu.hasDropdown && <ul className="submenu">
+          {/* {menu.hasDropdown && <ul className="submenu">
             {menu.submenus.map((sub, i) => (
               <li key={i}>
                 <Link href={sub.link}>
@@ -22,8 +22,8 @@ const Menus = () => {
                 </Link>
               </li>
             ))}
-          </ul>}
-          {menu.mega_menus && (
+          </ul>} */}
+          {/* {menu.mega_menus && (
             <ul className="mega-menu">
               {menu.mega_menus.map((mega, i) => (
                 <li key={i}>
@@ -40,7 +40,7 @@ const Menus = () => {
                 </li>
               ))}
             </ul>
-          )}
+          )} */}
         </li>
       ))}
     </ul>

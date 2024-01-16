@@ -92,7 +92,7 @@ import avishek from "@assets/img/logo/avishek.jpg";
 import bismay from "@assets/img/logo/bismay.jpg";
 import gabriel from "@assets/img/logo/gabriel.jpg";
 import vijay from "@assets/img/logo/vijay.jpg";
-import anthony from "@assets/img/logo/anthony.jpg";
+import arjun from "@assets/img/logo/arjun.png";
 import pravath from "@assets/img/logo/pravath.png";
 import pramod from "@assets/img/logo/Pramod.png";
 
@@ -101,7 +101,7 @@ const TeamSection = () => {
     {
       _id: "1",
       teamName: "Avishek",
-      director: "Director",
+      // director: "Director",
       designation: "CEO & Film-Maker",
       teamImg: avishek,
       delay: "0.3s",
@@ -124,10 +124,10 @@ const TeamSection = () => {
     },
     {
       _id: "3",
-      teamName: "Anthony",
+      teamName: "Arjun",
       // director: "Director",
-      designation: "HR",
-      teamImg:anthony,
+      designation: "Photographer",
+      teamImg:arjun,
       delay: "0.6s",
       // socialIcons: [
       //   { _id: "3", icon: "fa-linkedin", url: "https://www.linkedin.com/" },
@@ -150,7 +150,7 @@ const TeamSection = () => {
       _id: "5",
       teamName: "Pravath",
       // director: "Director",
-      designation: "Operations Head",
+      designation: "Interior Designer",
       teamImg: pravath,
       delay: "0.6s",
       // socialIcons: [
@@ -220,19 +220,19 @@ const TeamSection = () => {
               key={item._id}
             >
               <div className="fm-director-team-single team__item">
-                <Link
+                {/* <Link
                   href={`/team-details/${item._id}`}
                   className="fm-director-team"
-                >
+                > */}
                   <Image
                     src={item.teamImg}
                     width={500}
                     height={500}
                     style={{ width: "100%", height: "auto" }}
                     alt="img not found"
-                  />
+                  /><br/><br/>
                   <span className="fm-director-sign">{item.director}</span>
-                </Link>
+                {/* </Link> */}
                 <div className="fm-director-content">
                   <span className="fm-director-designation">
                     {item.designation}

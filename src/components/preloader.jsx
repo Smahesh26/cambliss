@@ -10,28 +10,28 @@ const Preloader = () => {
       <div className="loader">
         <div className="loader__container">
           <div className="loader__film">
-            <Image
+            {/* <Image
               className="loader__film-img"
               width={500}
               height={500}
               style={{ width: "100%", height: "auto" }}
               src={PreloaderIcon}
               alt="img not found"
-            />
-            <Image
+            /> */}
+            {/* <Image
               className="loader__film-img"
               width={500}
               height={500}
               style={{ width: "100%", height: "auto" }}
               src={IconTwo}
               alt="img not found"
-            />
+            /> */}
           </div>
           <Image
             className="loader__camera"
             width={500}
             height={500}
-            style={{ width: "100%", height: "auto" }}
+            style={{ width: "180px", height: "180px" }}
             src={IconThere}
             alt="img not found"
           />

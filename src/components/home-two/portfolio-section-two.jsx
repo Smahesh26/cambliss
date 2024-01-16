@@ -317,13 +317,22 @@ import image2 from "@assets/img/logo/enchant.jpeg";
 import image3 from "@assets/img/logo/facesofstyle.jpeg";
 import image4 from "@assets/img/logo/fullfill.jpeg";
 import image5 from "@assets/img/logo/anandgiri1.jpeg";
+import servicesimage from "@assets/img/logo/servicesimage2.png";
+import servicesimage2 from "@assets/img/logo/servicesimage3.png";
+import serviceimage3 from "@assets/img/logo/5.jpg";
+import serviceimage4 from "@assets/img/logo/serviceimage5.png";
+import serviceimage5 from "@assets/img/logo/sericeimage6.jpeg";
+import serviceimage6 from "@assets/img/logo/servicesimage7.png";
+
+
+
 
 const PortfolioSectionTwo = () => {
   const manualPortfolios = [
     {
       _id: "1",
       // title: "Satavahana University",
-      image: image,
+      image: serviceimage3,
       // releaseDate: "2023-11-22",
       // videoUrl: fleetins,
       delay: "0.1s",
@@ -333,39 +342,39 @@ const PortfolioSectionTwo = () => {
     {
       _id: "2",
       // title: "FLIC MICROWAVES",
-      image: image1,
+      image: servicesimage,
       // releaseDate: "2023-11-23",
       // videoUrl: "your-youtube-video-id-2",
       delay: "0.2s",
       // portfolioItemClass: "your-portfolio-item-class-2",
-      websiteUrl: "https://www.flicmicrowaves.com/", // Add the website URL for the second item
+    
     },
     {
       _id: "3",
       // title: "ENCHANTXP",
-      image: image2,
+      image: serviceimage4,
       // releaseDate: "2023-11-23",
       // videoUrl: "your-youtube-video-id-2",
       delay: "0.2s",
       // portfolioItemClass: "your-portfolio-item-class-2",
-      websiteUrl: "https://enchantxp.com/", // Add the website URL for the second item
+       // Add the website URL for the second item
     },
     
     {
       _id: "4",
       // title: "FACESOFSTYLE",
-      image: image3,
+      image: servicesimage2,
       // releaseDate: "2023-11-23",
       // videoUrl: "your-youtube-video-id-2",
       delay: "0.2s",
       // portfolioItemClass: "your-portfolio-item-class-2",
-      websiteUrl: "https://facesofstyle.com/", // Add the website URL for the second item
+     
     },
     
     {
       _id: "5",
       // title: "ANANDGIRI FOUNDATION",
-      image: image4,
+      image: serviceimage5,
       // releaseDate: "2023-11-23",
       // videoUrl: "your-youtube-video-id-2",
       delay: "0.2s",
@@ -373,16 +382,16 @@ const PortfolioSectionTwo = () => {
       websiteUrl: "http://anandgiri.org/", // Add the website URL for the second item
     },
     
-    {
-      _id: "6",
-      // title: "FULLFILL INDIA",
-      image: image5,
-      // releaseDate: "2023-11-23",
-      // videoUrl: "your-youtube-video-id-2",
-      delay: "0.2s",
-      // portfolioItemClass: "your-portfolio-item-class-2",
-      websiteUrl: "https://fullfillindia.com/", // Add the website URL for the second item
-    },
+    // {
+    //   _id: "6",
+    //   // title: "FULLFILL INDIA",
+    //   image: serviceimage6,
+    //   // releaseDate: "2023-11-23",
+    //   // videoUrl: "your-youtube-video-id-2",
+    //   delay: "0.2s",
+    //   // portfolioItemClass: "your-portfolio-item-class-2",
+      
+    // },
     
   ];
 
@@ -446,10 +455,10 @@ const PortfolioSectionTwo = () => {
                         openVideoModal(item.videoUrl);
                       }}
                     >
-                      <button className="fm-featured-video-wrapper fm-featured-video-btn btn-clr popup-video btn-pos">
+                      {/* <button className="fm-featured-video-wrapper fm-featured-video-btn btn-clr popup-video btn-pos">
                         <i className="fas fa-play"></i>
                         <span>Play Trailer</span>
-                      </button>
+                      </button> */}
                     </div>
                   </div>
                 </div>

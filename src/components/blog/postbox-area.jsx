@@ -8,7 +8,7 @@ const PostBoxArea = () => {
       <div className="container">
         <div className="row g-40">
           <Postbox />
-          <BlogSidebar />
+          {/* <BlogSidebar /> */}
         </div>
       </div>
     </section>

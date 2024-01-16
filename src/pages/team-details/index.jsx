@@ -6,7 +6,7 @@ import TeamDetailsPage from "@components/team-details";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Faime" />
+      <SEO pageTitle="CAMBLISS" />
       <TeamDetailsPage />
     </Wrapper>
   );

@@ -9,7 +9,8 @@ const index = () => {
     <>
       <Header />
       <main>
-        <Breadcrumb title="Terms & Conditions" subTitle="Terms & Conditions" />
+      <Breadcrumb />
+        {/* <Breadcrumb title="Terms & Conditions" subTitle="Terms & Conditions" /> */}
         <TermsConditionMain />
       </main>
       <FooterOne />

@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import imageOne from "@assets/img/objective/img-1.jpg";
-import imageTwo from "@assets/img/objective/img-2.jpg";
-import imageThree from "@assets/img/objective/img-3.jpg";
-import imageFour from "@assets/img/objective/img-4.jpg";
+import imageOne from "@assets/img/logo/websiteservices.jpg";
+import imageTwo from "@assets/img/logo/websiteservices1.jpg";
+import imageThree from "@assets/img/logo/websiteservices2.jpg";
+import imageFour from "@assets/img/logo/websiteservices4.jpg";
 import CaseSubtitleIcon from "@svg/case-subtitle-icon";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 
@@ -18,11 +18,11 @@ const galary_data = [
   },
   {
     id: 3,
-    img: imageThree,
+    img: imageFour,
   },
   {
     id: 4,
-    img: imageFour,
+    img: imageThree,
   },
 ];
 

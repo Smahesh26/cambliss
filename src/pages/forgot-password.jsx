@@ -8,7 +8,7 @@ import Wrapper from "@layout/wrapper";
 export default function forgotPassword() {
   return (
     <Wrapper>
-      <SEO pageTitle='Faime' />
+      <SEO pageTitle='CAMBLISS' />
       <Breadcrumb title="Forgot Password" subTitle="Forgot Password" />
       <ForgotArea />
     </Wrapper>

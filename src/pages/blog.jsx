@@ -6,7 +6,7 @@ import BlogPage from '@components/blog'
 const Blog = () => {
     return (
         <Wrapper>
-            <SEO pageTitle="Faime" />
+            <SEO pageTitle="CAMBLISS" />
             <BlogPage />
         </Wrapper>
     );

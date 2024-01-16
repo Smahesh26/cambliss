@@ -6,7 +6,7 @@ import PrivacyPolicy from "@components/policy-privacy";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Faime" />
+      <SEO pageTitle="CAMBLISS" />
       <PrivacyPolicy />
     </Wrapper>
   );

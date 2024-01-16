@@ -91,18 +91,18 @@ const menu_data = [
         ],
       },
     ],
-  },
+  }, 
   {
     id: 5,
     hasDropdown: true,
     title: "Careers",
     link: "/blog",
     submenus:[],
-    // submenus: [
-    //   { title: "Blog Standard", link: "/blog" },
-    //   { title: "Blog Wide", link: "/blog-wide" },
-    //   { title: "Blog Details", link: "/blog-details" },
-    // ],
+    submenus: [
+      { title: "Blog Standard", link: "/careers" },
+      { title: "Blog Wide", link: "/blog-wide" },
+      { title: "Blog Details", link: "/blog-details" },
+    ],
   },
   {
     id: 6,
