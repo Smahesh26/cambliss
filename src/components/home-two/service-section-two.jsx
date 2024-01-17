@@ -134,7 +134,7 @@ const manuallyWrittenServices = [
     delay: "0.6s",
   },
   {
-    link: "/",
+    link: "/Advertisement",
     serviceNum: "06",
     title: "Advertisement",
     description: "A Mix of Everything just for you.",
