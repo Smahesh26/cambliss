@@ -148,7 +148,7 @@ const ServiceSection = () => {
     },
     {
       _id: "8",
-      title: "Interior Designing",
+      title: "Fabrication",
       description: "From PPC to SEO, advertisting to content creation we cover all aspects of Digital Marketing",
       image: services2,
       delay: "1.2s",
