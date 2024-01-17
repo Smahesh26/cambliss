@@ -141,7 +141,16 @@ const Animation = ({ id }) => {
       video:'assets/img/services/videos/video2.mp4',
     },
  ];
-  
+ const videos1 = [
+  {
+    id:1,
+    video:'assets/img/services/videos/bluetoothearphone.mp4',
+  },
+  {
+    id:2,
+    video:'assets/img/services/videos/M3comingsoon.mp4',
+  },
+];
 
   return (
     <>
@@ -278,15 +287,32 @@ const Animation = ({ id }) => {
         </div>
       ))}
     </div>
-
-
-    
-    
-    </div><br/><br/>
+</div><br/><br/>
     <div className="container"> 
     <div className={styles.videoContainer}>
     <video autoPlay loop muted width="100%" height="100%">
       <source src="assets/img/services/videos/video3.mp4" type="video/mp4" />
+      Video not found or not supported by your browser.
+    </video>
+  </div>
+
+</div>
+<div className="container"> 
+    <div className={styles.videoGrid}>
+      {videos1.map((video, index) => (
+        <div key={index} className={styles.videoContainer}>
+          <video controls autoPlay loop muted width="100%" height="100%">
+            <source src={video.video} type="video/mp4" />
+            Video not found or not supported by your browser.
+          </video>
+        </div>
+      ))}
+    </div>
+</div>
+ <div className="container"> 
+    <div className={styles.videoContainer}>
+    <video autoPlay loop muted width="100%" height="100%">
+      <source src="assets/video/fleetins.mp4" type="video/mp4" />
       Video not found or not supported by your browser.
     </video>
   </div>

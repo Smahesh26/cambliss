@@ -320,7 +320,7 @@ import image5 from "@assets/img/logo/anandgiri1.jpeg";
 import servicesimage from "@assets/img/logo/servicesimage2.png";
 import servicesimage2 from "@assets/img/logo/servicesimage3.png";
 import serviceimage3 from "@assets/img/logo/5.jpg";
-import serviceimage4 from "@assets/img/logo/serviceimage5.png";
+import serviceimage4 from "@assets/img/logo/gallery4.jpeg";
 import serviceimage5 from "@assets/img/logo/sericeimage6.jpeg";
 import serviceimage6 from "@assets/img/logo/servicesimage7.png";
 

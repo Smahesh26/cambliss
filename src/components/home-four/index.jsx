@@ -10,6 +10,7 @@ import BlogSectionFour from './blog-section-four';
 import CertificateSlider from '@components/elements/slider/certificate-slider';
 import ContactSection from '@components/common/contact/contact-area';
 import FooterOne from '@layout/footers/footer-one';
+import TeamSection from '@components/common/team/team-section';
 
 const index = () => {
     return (
@@ -20,8 +21,9 @@ const index = () => {
           <HomeAboutFour/>
           <HistorySectionFour/>
           <PortFolioSectionFour/>
+          <TeamSection/>
           {/* <TestimonialSliderTwo/> */}
-          <VideoSectionFour/>
+          {/* <VideoSectionFour/> */}
           <BlogSectionFour/>
           <CertificateSlider/>
           <ContactSection/>

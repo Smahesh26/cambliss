@@ -134,9 +134,18 @@ const manuallyWrittenServices = [
     delay: "0.6s",
   },
   {
-    link: "/Visual-Production",
+    link: "/",
     serviceNum: "06",
-    title: "Visual Production",
+    title: "Advertisement",
+    description: "A Mix of Everything just for you.",
+    serviceBtn: "Learn More",
+    delay: "0.6s",
+  },
+
+  {
+    link: "/",
+    serviceNum: "07",
+    title: "Interior Designing",
     description: "A Mix of Everything just for you.",
     serviceBtn: "Learn More",
     delay: "0.6s",

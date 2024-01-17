@@ -139,6 +139,20 @@ const ServiceSection = () => {
       image: services2,
       delay: "1.2s",
     },
+    {
+      _id: "7",
+      title: "Advertisement",
+      description: "From PPC to SEO, advertisting to content creation we cover all aspects of Digital Marketing",
+      image: services2,
+      delay: "1.2s",
+    },
+    {
+      _id: "8",
+      title: "Interior Designing",
+      description: "From PPC to SEO, advertisting to content creation we cover all aspects of Digital Marketing",
+      image: services2,
+      delay: "1.2s",
+    },
   ];
 
   return (

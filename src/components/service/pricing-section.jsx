@@ -71,7 +71,7 @@ const PricingSection = () => {
                   <div className="section-title text-center">
                      <span className="section-subtitle title-anim">PRICE TABLE</span>
                      <div>
-                        <h2 className="section-main-title title-anim">Pricing Plans</h2>
+                        <h2 className="section-main-title title-anim" style={{color:"white"}}>Pricing Plans</h2>
                      </div>
                   </div>
                </div>
