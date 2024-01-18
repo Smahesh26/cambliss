@@ -15,12 +15,10 @@ import useGlobalContext from "@hooks/use-context";
 import PricingSection from "@components/service/pricing-section";
 import imagehero from "@assets/img/logo/interiorDesigning/hero.jpg"
 
-import imageOne from "@assets/img/logo/adverstisement/adv3.png";  
-import imageTwo from "@assets/img/logo/adverstisement/adv2.png";  
-import imageThree from "@assets/img/logo/adverstisement/adv1.png";  
-import imageFour from "@assets/img/logo/adverstisement/adv4.jpg";  
-import imageFive from "@assets/img/logo/adverstisement/adv5.jpg";  
-import imageSix from "@assets/img/logo/gallery5.jpeg";  
+import imageOne from "@assets/img/logo/interiorDesigning/int1.png";  
+// import imageTwo from "@assets/img/logo/interiorDesigning/int2.png"; 
+import imageThree from "@assets/img/logo/interiorDesigning/int3.png"; 
+import imageFour from "@assets/img/logo/interiorDesigning/int4.png"; 
 // import imageThree from "@assets/img/logo/Untitled design(4)/branding66.jpeg";  
 // import imageFour from "@assets/img/logo/brandingimagenew.jpg";  
 // import imageFive from "@assets/img/logo/Untitled design(4)/5.png";  
@@ -153,28 +151,21 @@ const Fabrication = ({ id }) => {
   const galary_data = [
     {
       id: 1,
-      img: imageFive,
+      img: imageOne,
     },
-    {
-      id: 2,
-      img: imageTwo,
-    },
+    // {
+    //   id: 2,
+    //   img: imageTwo,
+    // },
     {
       id: 3,
-      img: imageThree,
-    },
-    {
-      id: 4,
       img: imageFour,
     },
     {
-      id: 5,
-      img: imageSix,
+      id: 4,
+      img: imageThree,
     },
-    {
-        id: 6,
-        img: imageOne,
-      },
+   
   ];
   
   return (
@@ -216,17 +207,15 @@ const Fabrication = ({ id }) => {
                 </h4>
                 <p className="mb-55 ">
 
-                Cambliss elevates your brand through strategic and compelling media advertisements. Our primary objective is to seamlessly integrate your brand into the hearts and minds of your target audience. Through innovative storytelling, captivating visuals, and strategic placement, we ensure that your brand not only captures attention but leaves a lasting impression.                </p>
-                <p className="mb-45 ">
+                Cambliss, a leading interior design company, is dedicated to transforming spaces into aesthetically pleasing and functional environments. With a commitment to innovation and client satisfaction, Cambliss aims to create unique designs that reflect individual lifestyles and organizational identities.                <p className="mb-45 ">
+              </p>
                   {" "}
-                  we understand the power of media in shaping perceptions. Our mission is to leverage this power to amplify your brands message, fostering a connection with your audience. Whether its through impactful video campaigns, engaging social media content, or immersive digital experiences, we tailor our advertising strategies to align with your brands unique identity and objectives.                </p>
-                <p className="mb-45 ">
+                  Cambliss strives to create exceptional interior designs that not only meet but exceed the expectations of its clients while maintaining a commitment to quality and innovation.                <p className="mb-45 ">
+                 </p>
                   {" "}
                   With a team of creative minds and marketing experts, we go beyond traditional advertising boundaries, pushing the limits to deliver campaigns that resonate. By staying ahead of industry trends and leveraging cutting-edge technologies, we ensure that your brand stands out in a crowded media landscape.
                 </p>
-                <p className="mb-45 ">
-                  {" "}
-                  At Cambliss, we dont just create advertisements; we craft experiences that leave a lasting impact. Join us on a journey where your brands story becomes a captivating narrative, reaching new heights in the world of media advertising.                </p>
+                
                 <h4 className="case-subtitle mb-25">
                   <span>
                     <svg
@@ -247,23 +236,25 @@ const Fabrication = ({ id }) => {
                   WHAT WE DO
                 </h4>
                 <p className="mb-30 ">
-                  <strong>Strategic Planning</strong><br />
+                  <strong>Client-Centric Approach</strong><br />
                   We begin by thoroughly understanding your brand, target audience, and business objectives. Through market research and analysis, we develop a comprehensive advertising strategy that aligns with your goals and sets the foundation for effective campaigns.              </p>
                 <p className="mb-30 ">
-                  <strong>Creative Development</strong><br />
-                  Our team of skilled creatives brings your brand to life through compelling content creation. Whether its captivating visuals, persuasive copywriting, or innovative concepts, we focus on crafting messages that resonate with your audience and leave a memorable impression.                </p>
+                  <strong>Innovative Design Solutions</strong><br />
+                  Stay at the forefront of design trends and incorporate innovative concepts into every project.
+Provide creative and original solutions that elevate the overall design aesthetic.</p>
+               <p className="mb-30 ">
+                  <strong>Functional and Practical Designs</strong><br />
+                  Balance aesthetics with functionality to ensure that each space serves its intended purpose effectively.
+Optimize space utilization through strategic planning and thoughtful design solutions.</p>
                 <p className="mb-30 ">
-                  <strong>Multi-Channel Execution</strong><br />
-                  We leverage a diverse range of advertising channels, including digital platforms, social media, traditional media, and more. By tailoring our approach to the unique characteristics of each channel, we maximize your brands visibility and engagement across various touchpoints.               </p>
-                <p className="mb-30 ">
-                  <strong>Performance Analysis and Optimization</strong><br />
-                  Continuous monitoring and analysis of campaign performance are integral to our process. We use data-driven insights to evaluate the effectiveness of our strategies and optimize campaigns in real-time. This iterative approach ensures that your advertising efforts consistently deliver the best results and return on investment.
-                </p>
+                  <strong>Attention to Detail</strong><br />
+                  Uphold a commitment to precision and attention to detail in every aspect of the design process.
+Ensure that the smallest details contribute to the overall cohesiveness of the design.                </p>
               </div>
             </div>
           </div>
         </section>
-        <section className="step-area section-spacing-top">
+        {/* <section className="step-area section-spacing-top">
       <div className="container">
         <div className="row section-title-spacing wow fadeInUp" data-wow-delay="0.3s">
           <div className="col-12">
@@ -295,7 +286,7 @@ const Fabrication = ({ id }) => {
           </div>
         </div>
       </div>
-    </section >
+    </section > */}
   <br/><br/>
   <div className="container">
     <section className="design-area wow fadeInUp" data-wow-delay="0.3s">

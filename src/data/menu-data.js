@@ -20,19 +20,19 @@ const menu_data = [
     // title: "Movie",
     title:"Services",
     link: "/Services",
-    submenus:[]
-    // submenus: [
-    //   { title: "Movie", link: "/movie" },
+  
+    submenus: [
+      { title: "Movie", link: "/movie" },
     //   { title: "Movie-details", link: "/movie-details" },
-    // ],
+    ],
   },
-  {
-    id: 8,
-    hasDropdown: true,
-    active:true,
-    title: "OurWork",
-    link: "/",
-    submenus:[]
+  // {
+  //   id: 8,
+  //   hasDropdown: true,
+  //   active:true,
+  //   title: "OurWork",
+  //   link: "/",
+  //   submenus:[]
     // submenus: [
     //   { title: "Movie Director", link: "/" },
     //   { title: "Filming Works", link: "/filming-works" },
@@ -40,7 +40,7 @@ const menu_data = [
     //   { title: "Filming History", link: "/filming-history" },
     //   { title: "Popular Movies", link: "/popular-movies" },
     // ],
-  },
+  // },
   // {
   //   id: 3,
   //   hasDropdown: true,
@@ -111,7 +111,7 @@ const menu_data = [
     id: 5,
     hasDropdown: true,
     title: "Careers",
-    link: "/blog",
+    link: "/Careers",
     submenus:[],
     submenus: [
       { title: "Blog Standard", link: "/careers" },

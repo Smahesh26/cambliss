@@ -3,8 +3,8 @@ import Logo from '@assets/img/logo/logo.png';
 import gallery1 from "@assets/img/logo/gallery1.jpeg";
 import gallery2 from "@assets/img/logo/gallery2.png";
 import gallery3 from "@assets/img/logo/gallery3.jpeg";
-import gallery4 from "@assets/img/logo/gallery4.jpeg";
-import gallery5 from "@assets/img/logo/gallery5.jpeg";
+import gallery4 from "@assets/img/logo/serviceimage5.png";
+import gallery5 from "@assets/img/logo/4.png";
 import gallery6 from "@assets/img/logo/gallery6.jpeg";
 
 

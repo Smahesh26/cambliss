@@ -143,7 +143,7 @@ const manuallyWrittenServices = [
   },
 
   {
-    link: "/",
+    link: "/InteriorDesigning",
     serviceNum: "07",
     title: "Interior Designing",
     description: "A Mix of Everything just for you.",

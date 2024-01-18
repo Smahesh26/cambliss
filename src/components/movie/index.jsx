@@ -19,10 +19,10 @@ const index = () => {
       <VideoAreaSection /> 
         {/* <MovieSliderFour /> */}
         <MovieSliderFive />
-        <MovieSliderSix />
+        {/* <MovieSliderSix />
         <LandingBannerArea />
         <MovieSectionSix />
-        <MovieSliderSeven />
+        <MovieSliderSeven /> */}
         <ContactSection />
       </main>
       <FooterOne />
