@@ -78,7 +78,7 @@ const ContactArea = () => {
                                    <iframe
    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3809.274548350588!2d78.50406287516294!3d17.302297583570464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba28a18b09ea9%3A0xccbf37b932caddb6!2sCambliss!5e0!3m2!1sen!2sin!4v1705562593217!5m2!1sen!2sin"
    width="400"  
-   height="440" 
+   height="522" 
    style={{ border: '0' }}
    allowFullScreen=""
    loading="lazy"

@@ -17,12 +17,12 @@ const index = () => {
       <Header />
       <main>
       <VideoAreaSection /> 
-        {/* <MovieSliderFour /> */}
-        <MovieSliderFive />
-        {/* <MovieSliderSix />
+        {/* <MovieSliderFour />
+        <MovieSliderFive /> */}
+        <MovieSliderSix />
         <LandingBannerArea />
         <MovieSectionSix />
-        <MovieSliderSeven /> */}
+        <MovieSliderSeven />
         <ContactSection />
       </main>
       <FooterOne />

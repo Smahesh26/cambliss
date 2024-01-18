@@ -156,7 +156,7 @@ const Animation = ({ id }) => {
     <>
       <Header />
       <main>
-        <Breadcrumb />
+      <Breadcrumb title="Animation" subTitle="Animation" />
         <section className="case-details-area">
           <div className="container">
             <div className="row">

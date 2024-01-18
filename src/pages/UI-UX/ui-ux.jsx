@@ -160,8 +160,8 @@ const UiUx = ({ id }) => {
     <>
       <Header />
       <main>
-      <Breadcrumb />
-        {/* <Breadcrumb title="Service Details" subTitle="Service Details" /> */}
+     
+        <Breadcrumb title="UI-UX" subTitle="UI-UX" />
         <section className="case-details-area">
           <div className="container">
             <div className="row">

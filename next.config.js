@@ -1,6 +1,8 @@
 module.exports = {
   images: {
-    domains: ["i.ibb.co"],
+   
+    
+    domains: ['img.freepik.com'],
   },
   
   webpack(config, options) {

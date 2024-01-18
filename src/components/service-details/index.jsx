@@ -12,7 +12,7 @@ const index = ({ id }) => {
     <>
       <Header />
       <main>
-      <Breadcrumb />
+      <Breadcrumb title="Website Design &amp; Development" subTitle="Website Design &amp; Development" />
         {/* <Breadcrumb title="Service" subTitle="Website Design & Development" /> */}
         <ServiceDetails id={id} />
         {/* <CaseQouteArea /> */}

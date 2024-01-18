@@ -172,8 +172,8 @@ const Fabrication = ({ id }) => {
     <>
       <Header />
       <main>
-      <Breadcrumb />
-        {/* <Breadcrumb title="Service Details" subTitle="Service Details" /> */}
+      
+        <Breadcrumb title="Interior Designing" subTitle="Interior Designing" />
         <section className="case-details-area">
           <div className="container">
             <div className="row">

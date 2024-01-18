@@ -181,8 +181,8 @@ const Advertisement = ({ id }) => {
     <>
       <Header />
       <main>
-      <Breadcrumb />
-        {/* <Breadcrumb title="Service Details" subTitle="Service Details" /> */}
+     
+        <Breadcrumb title="Advertisement" subTitle="Advertisement" />
         <section className="case-details-area">
           <div className="container">
             <div className="row">

@@ -154,8 +154,8 @@ const DigitaMarketing = ({ id }) => {
     <>
       <Header />
       <main>
-        {/* <Breadcrumb title="Service Details" subTitle="Service Details" /> */}
-        <Breadcrumb />
+        <Breadcrumb title="Digital Marketing" subTitle="Digital Marketing" />
+        
         <section className="case-details-area">
           <div className="container">
             <div className="row">

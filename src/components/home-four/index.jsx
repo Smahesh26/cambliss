@@ -11,13 +11,14 @@ import CertificateSlider from '@components/elements/slider/certificate-slider';
 import ContactSection from '@components/common/contact/contact-area';
 import FooterOne from '@layout/footers/footer-one';
 import TeamSection from '@components/common/team/team-section';
-
+import Breadcrumb from '@components/common/breadcrumb/breadcrumb';
 const index = () => {
     return (
         <>
         <Header /><br/><br/>
         <main>
-       
+      
+        <Breadcrumb title="About Us" subTitle="About Us" /> 
           <HomeAboutFour/>
           <HistorySectionFour/>
           <PortFolioSectionFour/>

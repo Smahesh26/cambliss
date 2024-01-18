@@ -176,8 +176,8 @@ const Branding = ({ id }) => {
     <>
       <Header />
       <main>
-      <Breadcrumb />
-        {/* <Breadcrumb title="Service Details" subTitle="Service Details" /> */}
+     
+        <Breadcrumb title="Branding &amp; Creative Services" subTitle="Branding &amp; Creative Services" />
         <section className="case-details-area">
           <div className="container">
             <div className="row">

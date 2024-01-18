@@ -1,28 +1,27 @@
 import React from "react";
 import { useFormik } from "formik";
-// internal
 import { contact_schema } from "@utils/validation-schema";
 import ErrorMsg from "./error-msg";
 import axios from "axios";
 import { toast } from "react-toastify";
 
 const ContactForm = () => {
-  // use formik
   const { handleChange, handleSubmit, handleBlur, errors, values, touched } =
     useFormik({
       initialValues: {
         name: "",
         email: "",
+        phnNo: "", // Added phone number field
         subject: "",
         msg: "",
       },
-
       validationSchema: contact_schema,
       onSubmit: (values, { resetForm }) => {
         resetForm();
         const userinfo = {
           name: values.name,
           email: values.email,
+          phnNo: values.phnNo, // Include phone number in the form data
           subject: values.subject,
           message: values.msg,
         };
@@ -65,6 +64,20 @@ const ContactForm = () => {
           {touched.email && <ErrorMsg error={errors.email} />}
         </div>
       </div>
+
+      <div className="col-xl-6 col-lg-6">
+        <input
+          name="phnNo"
+          value={values.phnNo}
+          onChange={handleChange}
+          onBlur={handleBlur}
+          type="text"
+          placeholder="Enter your phone number"
+          id="phnNo"
+        />
+        {touched.phnNo && <ErrorMsg error={errors.phnNo} />}
+      </div>
+
       <div className="col-xl-12">
         <input
           type="text"
@@ -76,6 +89,7 @@ const ContactForm = () => {
           name="subject"
         />
       </div>
+
       <div className="col-xl-12">
         <textarea
           name="msg"
@@ -87,6 +101,7 @@ const ContactForm = () => {
         ></textarea>
         {touched.msg && <ErrorMsg error={errors.msg} />}
       </div>
+
       <div className="col-xl-12">
         <button type="submit">Send Message</button>
       </div>
