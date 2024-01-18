@@ -174,7 +174,6 @@
 
 // export default MovieSliderSix;
 
-
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -186,74 +185,23 @@ import GetRating from "@hooks/use-rating";
 
 // Manual data for different categories
 const categoriesData = {
-  webDesign: [
+  animation: [
     {
       _id: "1",
-      title: "Web Design Movie 1",
-      
-      image: "/path-to-web-design-image",
-     
+      title: "Animation Movie 1",
+      image: "/path-to-animation-image",
+      url: "/animation-movie-1", // Replace with your actual URL
     },
-    
-  ],
-  development: [
-    {
-      _id: "2",
-      title: "Development Movie 1",
-     
-      image: "/path-to-development-image",
-      
-    },
-    // Add more Development movies...
+    // Add more animation movies...
   ],
   branding: [
     {
-      _id: "3",
+      _id: "2",
       title: "Branding Movie 1",
-      badgeImg: "/path-to-badge-image",
       image: "/path-to-branding-image",
-      videoUrl: "branding-video-url",
-      ratings: 4.0,
-      tradingTime: "1h 45min",
-      views: 1200,
+      url: "/branding-movie-1", // Replace with your actual URL
     },
-  ],
-    branding1: [
-      {
-        _id: "4",
-        title: "Branding Movie 1",
-        badgeImg: "/path-to-badge-image",
-        image: "/path-to-branding-image",
-        videoUrl: "branding-video-url",
-        ratings: 4.0,
-        tradingTime: "1h 45min",
-        views: 1200,
-      },
-    ],
-      branding2: [
-        {
-          _id: "5",
-          title: "Branding Movie 1",
-          badgeImg: "/path-to-badge-image",
-          image: "/path-to-branding-image",
-          videoUrl: "branding-video-url",
-          ratings: 4.0,
-          tradingTime: "1h 45min",
-          views: 1200,
-        },
-      ],
-        branding3: [
-          {
-            _id: "6",
-            title: "Branding Movie 1",
-            badgeImg: "/path-to-badge-image",
-            image: "/path-to-branding-image",
-            videoUrl: "branding-video-url",
-            ratings: 4.0,
-            tradingTime: "1h 45min",
-            views: 1200,
-          },
-    // Add more Branding movies...
+    // Add more branding movies...
   ],
   // Add other categories...
 };
@@ -261,7 +209,7 @@ const categoriesData = {
 const MovieSliderSix = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [videoUrl, setVideoUrl] = useState(" ");
-  const [activeCategory, setActiveCategory] = useState("webDesign");
+  const [activeCategory, setActiveCategory] = useState("animation");
 
   const openVideoModal = (id) => {
     setIsOpen(!isOpen);
@@ -289,13 +237,13 @@ const MovieSliderSix = () => {
               <div className="fm-landing-trending-slider-navigation fade_bottom_3 text-sm-end">
                 <span
                   className="fm-landing-premium-prev"
-                  onClick={() => handleCategoryChange("webDesign")}
+                  onClick={() => handleCategoryChange("animation")}
                 >
                   <i className="fa-light fa-angle-left"></i>
                 </span>
                 <span
                   className="fm-landing-premium-next"
-                  onClick={() => handleCategoryChange("webDesign")}
+                  onClick={() => handleCategoryChange("animation")}
                 >
                   <i className="fa-light fa-angle-right"></i>
                 </span>
@@ -349,62 +297,17 @@ const MovieSliderSix = () => {
                         <SwiperSlide key={item._id}>
                           <div className="fm-landing-trending-single">
                             <div className="fm-landing-trending-single-img">
-                              <span className="fm-landing-trending-premium-badge">
-                                <Image
-                                  src={item.badgeImg}
-                                  width={500}
-                                  height={500}
-                                  style={{ width: "100%", height: "auto" }}
-                                  alt="Badge Image"
-                                />
-                              </span>
-                              <Link href={`/movie-details/${item._id}`}>
-                                <Image
-                                  src={item.image}
-                                  width={500}
-                                  height={500}
-                                  style={{ width: "100%", height: "auto" }}
-                                  alt="Movie Image"
-                                />
+                              <Link href={item.url}>
+                                <a>
+                                  <Image
+                                    src={item.image}
+                                    width={500}
+                                    height={500}
+                                    style={{ width: "100%", height: "auto" }}
+                                    alt="Movie Image"
+                                  />
+                                </a>
                               </Link>
-                              <span className="fm-landing-trending-time">
-                                {item.tradingTime}
-                              </span>
-                              <button
-                                className="fm-trending-video-btn popup-video"
-                                onClick={() => {
-                                  openVideoModal(item.videoUrl);
-                                }}
-                              >
-                                <span>
-                                  <i className="fa-thin fa-play"></i>WATCH
-                                </span>
-                              </button>
-                            </div>
-                            <div className="fm-landing-trending-content">
-                              <div className="fm-landing-trending-content-text">
-                                <h4 className="fm-landing-trending-content-title">
-                                  <Link href={`/movie-details/${item._id}`}>
-                                    {item.title}
-                                  </Link>
-                                </h4>
-                                <span className="fm-landing-trending-rating">
-                                  <GetRating averageRating={item.ratings} />
-                                </span>
-                                <div className="fm-landing-trending-meta-wrapper">
-                                  <span className="fm-landing-trending-meta">
-                                    {item.tradingTime}
-                                  </span>
-                                  <span className="fm-landing-trending-meta">
-                                    {item.views}
-                                  </span>
-                                </div>
-                              </div>
-                              <div className="fm-landing-trending-content-bookmark">
-                                <span className="fm-landing-trending-content-bookmark-icon">
-                                  <i className="flaticon-love"></i>
-                                </span>
-                              </div>
                             </div>
                           </div>
                         </SwiperSlide>
