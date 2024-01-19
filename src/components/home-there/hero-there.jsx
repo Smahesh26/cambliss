@@ -36,7 +36,7 @@ const HeroThere = () => {
                  <div className="fm-hero-thumb hero__right-6">
                     <Image src={GalleryImage} style={{width:'100%', height:'auto'}}  alt="img not found"/>
                  </div>
-                 <div className="fm-slider-main-social-abs">
+                 {/* <div className="fm-slider-main-social-abs">
                     <div className="fm-sliderfull-social">
                        <label>Follow</label>
                        <Link href="https://www.facebook.com/profile.php?id=61553561020127" target="_blank"><i className="fa-brands fa-facebook-f"></i></Link>
@@ -45,7 +45,7 @@ const HeroThere = () => {
                        <Link href="https://www.pinterest.com/" target="_blank"><i
                              className="fa-brands fa-pinterest-p"></i></Link>
                     </div>
-                 </div>
+                 </div> */}
               </div>
            </div>
         </div>

@@ -98,7 +98,7 @@ const manuallyWrittenServices = [
     serviceNum: "01",
     title: "Website Design & Development",
     description: "Our website design & development services are tailored to meet the unique needs of your business",
-    serviceBtn: "Learn More",
+    serviceBtn: "View More",
     delay: "0.3s",
   },
   {
@@ -106,7 +106,7 @@ const manuallyWrittenServices = [
     serviceNum: "02",
     title: "Branding & Creative Services",
     description: "Our approach to branding is collaborative involving clients in every step to capture your vision.",
-    serviceBtn: "Learn More",
+    serviceBtn: "View More",
     delay: "0.4s",
   },
   {
@@ -114,7 +114,7 @@ const manuallyWrittenServices = [
     serviceNum: "03",
     title: "Animation",
     description: "We bring your imagination to life through stunning 2D & 3D animations and captivate the audience.",
-    serviceBtn: "Learn More",
+    serviceBtn: "View More",
     delay: "0.5s",
   },
   {
@@ -122,7 +122,7 @@ const manuallyWrittenServices = [
     serviceNum: "04",
     title: "UI/UX",
     description: "Cambliss specializes in UI/UX, where your functionality meets aesthetics.",
-    serviceBtn: "Learn More",
+    serviceBtn: "View More",
     delay: "0.6s",
   },
   {
@@ -130,15 +130,15 @@ const manuallyWrittenServices = [
     serviceNum: "05",
     title: "Digital Marketing",
     description: "From SEO to PPC advertising to social media marketing, Cambliss covers all aspects of marketing.",
-    serviceBtn: "Learn More",
+    serviceBtn: "View More",
     delay: "0.6s",
   },
   {
     link: "/Advertisement",
     serviceNum: "06",
     title: "Advertisement",
-    description: "A Mix of Everything just for you.",
-    serviceBtn: "Learn More",
+    description: "Elevate Your Experience, Embrace the Extraordinary.",
+    serviceBtn: "View More",
     delay: "0.6s",
   },
 
@@ -146,8 +146,8 @@ const manuallyWrittenServices = [
     link: "/InteriorDesigning",
     serviceNum: "07",
     title: "Interior Designing",
-    description: "A Mix of Everything just for you.",
-    serviceBtn: "Learn More",
+    description: "Where Style Meets Comfort, Your Space Unveiled.",
+    serviceBtn: "View More",
     delay: "0.6s",
   },
 ];

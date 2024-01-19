@@ -196,7 +196,7 @@ const ServiceSection = () => {
                         <Link href="/service">{item.title}</Link>
                       </h4>
                       <p>{item.description}</p>
-                      <Link
+                      {/* <Link
                       href={``}
                         // href={`/service-details/${item._id}`}
                         className="fm-director-service-btn arrow-effect"
@@ -205,7 +205,7 @@ const ServiceSection = () => {
                         <span>
                           <i className="fa-light fa-arrow-right-long"></i>
                         </span>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 ))}

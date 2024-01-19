@@ -60,7 +60,7 @@ const HeroTwo = () => {
                 </div>
                 <div className="d-none d-xxl-block">
                   <div className="fm-sidebar-2">
-                    <div className="fm-sliderfull-social">
+                    {/* <div className="fm-sliderfull-social">
                       <label className="label-bg">Follow</label>
                       <Link href="https://www.facebook.com/profile.php?id=61553561020127">
                         <i className="fa-brands fa-facebook-f"></i>
@@ -74,7 +74,7 @@ const HeroTwo = () => {
                       <Link href="https://www.pinterest.com/">
                         <i className="fa-brands fa-pinterest-p"></i>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

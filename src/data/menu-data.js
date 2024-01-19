@@ -15,29 +15,6 @@ const menu_data = [
     // ],
   },
   {
-    id: 2,
-    hasDropdown: true,
-    // title: "Movie",
-    title:"Services",
-    link: "/Services",
-  
-    submenus: [
-      { title: "Movie", link: "/movie" },
-    //   { title: "Movie-details", link: "/movie-details" },
-    ],
-  },
-  {
-    id: 8,
-    hasDropdown: true,
-    active:true,
-    title: "OurWork",
-    link: "/OurWork",
-    submenus:[]
-   
-  },
- 
-
-  {
     id: 4,
     // title: "Pages",
     title:"About US",
@@ -90,6 +67,30 @@ const menu_data = [
       },
     ],
   }, 
+  {
+    id: 2,
+    hasDropdown: true,
+    // title: "Movie",
+    title:"Our Services",
+    link: "/Services",
+  
+    submenus: [
+      { title: "Movie", link: "/movie" },
+    //   { title: "Movie-details", link: "/movie-details" },
+    ],
+  },
+  {
+    id: 8,
+    hasDropdown: true,
+    active:true,
+    title: "Our Work",
+    link: "/OurWork",
+    submenus:[]
+   
+  },
+ 
+
+ 
   {
     id: 5,
     hasDropdown: true,

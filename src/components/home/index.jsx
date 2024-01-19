@@ -24,7 +24,7 @@ const index = () => {
                 <FilmsArea />
                 {/* <TestimonialOne /> */}
                
-                <TeamSection />
+                {/* <TeamSection /> */}
                 <CertificateSlider/>
                 <PricingSection/>
                 <ContactSection />

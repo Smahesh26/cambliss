@@ -95,7 +95,7 @@ const HeroOne = () => {
               ))}
             </Swiper>
           </div>
-          <div className="d-none d-md-block">
+          {/* <div className="d-none d-md-block">
             <div className="fm-slider-main-social-abs social-icon-pos">
               <div className="fm-sliderfull-social">
                 <label>Follow</label>
@@ -113,7 +113,7 @@ const HeroOne = () => {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="fm-slider-main-slide-pagination"></div>
       </div>
