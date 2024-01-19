@@ -10,6 +10,7 @@ import MovieSectionSix from "./movie-section-six";
 import ContactSection from "@components/common/contact/contact-area";
 import MovieSliderSeven from "@components/elements/slider/movie-slider/movie-slider-seven";
 import VideoAreaSection from "@components/home-two/video-area-section";
+import FaqSection from "@components/portfolo-details-page/faq-section";
 
 const index = () => {
   return (
@@ -20,9 +21,10 @@ const index = () => {
         {/* <MovieSliderFour />
         <MovieSliderFive /> */}
         <MovieSliderSix />
-        <LandingBannerArea />
+        {/* <LandingBannerArea />
         <MovieSectionSix />
-        <MovieSliderSeven />
+        <MovieSliderSeven /> */}
+        <FaqSection/>
         <ContactSection />
       </main>
       <FooterOne />
