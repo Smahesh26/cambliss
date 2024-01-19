@@ -26,33 +26,16 @@ const menu_data = [
     //   { title: "Movie-details", link: "/movie-details" },
     ],
   },
-  // {
-  //   id: 8,
-  //   hasDropdown: true,
-  //   active:true,
-  //   title: "OurWork",
-  //   link: "/",
-  //   submenus:[]
-    // submenus: [
-    //   { title: "Movie Director", link: "/" },
-    //   { title: "Filming Works", link: "/filming-works" },
-    //   { title: "Movie and Film", link: "/movie-film" },
-    //   { title: "Filming History", link: "/filming-history" },
-    //   { title: "Popular Movies", link: "/popular-movies" },
-    // ],
-  // },
-  // {
-  //   id: 3,
-  //   hasDropdown: true,
-  //   title: "Portfolio",
-  //   link: "/portfolio-masonary",
-  //   submenus:[],
-  //   submenus: [
-  //     { title: "Portfolio-Masonary", link: "/portfolio-masonary" },
-  //     { title: "Portfolio-Slider", link: "/portfolio-slider" },
-  //     { title: "Portfolio Details", link: "/portfolio-details" },
-  //   ],
-  // },
+  {
+    id: 8,
+    hasDropdown: true,
+    active:true,
+    title: "OurWork",
+    link: "/OurWork",
+    submenus:[]
+   
+  },
+ 
 
   {
     id: 4,
@@ -125,6 +108,7 @@ const menu_data = [
     title: "Contact",
     link: "/contact",
   },
+
   // secondary dropdown
   // {
   //   id: 7,
