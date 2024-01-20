@@ -15,10 +15,12 @@ import useGlobalContext from "@hooks/use-context";
 import PricingSection from "@components/service/pricing-section";
 import imagehero from "@assets/img/logo/interiorDesigning/hero.jpg"
 
-import imageOne from "@assets/img/logo/interiorDesigning/int1.png";  
+import imageOne from "@assets/img/logo/interiorDesigning/int1.jpeg";  
 // import imageTwo from "@assets/img/logo/interiorDesigning/int2.png"; 
-import imageThree from "@assets/img/logo/interiorDesigning/int3.png"; 
-import imageFour from "@assets/img/logo/interiorDesigning/int4.png"; 
+import imageTwo from "@assets/img/logo/interiorDesigning/int2.jpeg"; 
+import imageThree from "@assets/img/logo/interiorDesigning/int3.jpeg"; 
+import imageFour from "@assets/img/logo/interiorDesigning/int4.jpeg"; 
+
 // import imageThree from "@assets/img/logo/Untitled design(4)/branding66.jpeg";  
 // import imageFour from "@assets/img/logo/brandingimagenew.jpg";  
 // import imageFive from "@assets/img/logo/Untitled design(4)/5.png";  
@@ -151,15 +153,15 @@ const Fabrication = ({ id }) => {
   const galary_data = [
     {
       id: 1,
-      img: imageOne,
+      img: imageFour,
     },
-    // {
-    //   id: 2,
-    //   img: imageTwo,
-    // },
+    {
+      id: 2,
+      img: imageTwo,
+    },
     {
       id: 3,
-      img: imageFour,
+      img: imageOne,
     },
     {
       id: 4,
