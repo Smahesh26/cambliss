@@ -118,7 +118,7 @@ const manuallyWrittenServices = [
     delay: "0.5s",
   },
   {
-    link: "/UI-UX",
+    link: "",
     serviceNum: "04",
     title: "UI/UX",
     description: "Cambliss specializes in UI/UX, where your functionality meets aesthetics.",

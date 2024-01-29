@@ -103,13 +103,13 @@ const PortfolioSection = () => {
       image: digitalmarketing,
       delay: "0.6s",
     },
-    {
-      _id: "3",
-      // title: "Project 2",
-      subTitle: "Animation",
-      image: animation,
-      delay: "0.6s",
-    },
+    // {
+    //   _id: "3",
+    //   // title: "Project 2",
+    //   subTitle: "Animation",
+    //   image: animation,
+    //   delay: "0.6s",
+    // },
     {
       _id: "4",
       // title: "Project 2",
@@ -117,20 +117,20 @@ const PortfolioSection = () => {
       image: branding,
       delay: "0.6s",
     },
-    {
-      _id: "5",
-      // title: "Project 2",
-      subTitle: "Visual Production",
-      image: tv,
-      delay: "0.6s",
-    },
-    {
-      _id: "2",
-      // title: "Project 2",
-      subTitle: "UI/UX Design",
-      image: uiux,
-      delay: "0.6s",
-    },
+    // {
+    //   _id: "5",
+    //   // title: "Project 2",
+    //   subTitle: "Visual Production",
+    //   image: tv,
+    //   delay: "0.6s",
+    // },
+    // {
+    //   _id: "2",
+    //   // title: "Project 2",
+    //   subTitle: "UI/UX Design",
+    //   image: uiux,
+    //   delay: "0.6s",
+    // },
     // Add more portfolio items as needed
   ];
 

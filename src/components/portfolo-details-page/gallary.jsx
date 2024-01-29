@@ -16,10 +16,10 @@ const galary_data = [
     id: 2,
     img: imageTwo,
   },
-  {
-    id: 3,
-    img: imageFour,
-  },
+  // {
+  //   id: 3,
+  //   img: imageFour,
+  // },
   {
     id: 4,
     img: imageThree,

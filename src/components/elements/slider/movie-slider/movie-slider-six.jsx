@@ -42,7 +42,8 @@ const categoriesData = {
       _id: "4",
       title: "UI/UX",
 image: four,
-      url: "/UI-UX",
+url:"",
+      // url: "/UI-UX",
     },
   ],
   DigitalMarketing: [

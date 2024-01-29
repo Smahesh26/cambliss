@@ -134,18 +134,18 @@ const TeamSection = () => {
       //   { _id: "4", icon: "fa-instagram", url: "https://www.instagram.com/" },
       // ],
     },
-    {
-      _id: "4",
-      teamName: "Bismay",
-      // director: "Director",
-      designation: "Creative Director",
-      teamImg: bismay,
-      delay: "0.6s",
-      // socialIcons: [
-      //   { _id: "3", icon: "fa-linkedin", url: "https://www.linkedin.com/" },
-      //   { _id: "4", icon: "fa-instagram", url: "https://www.instagram.com/" },
-      // ],
-    },
+    // {
+    //   _id: "4",
+    //   teamName: "Bismay",
+    //   // director: "Director",
+    //   designation: "Creative Director",
+    //   teamImg: bismay,
+    //   delay: "0.6s",
+    //   socialIcons: [
+    //     { _id: "3", icon: "fa-linkedin", url: "https://www.linkedin.com/" },
+    //     { _id: "4", icon: "fa-instagram", url: "https://www.instagram.com/" },
+    //   ],
+    // },
     {
       _id: "5",
       teamName: "Pravat",

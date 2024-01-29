@@ -309,7 +309,7 @@ const Animation = ({ id }) => {
       ))}
     </div>
 </div>
- <div className="container"> 
+ {/* <div className="container"> 
     <div className={styles.videoContainer}>
     <video autoPlay loop muted width="100%" height="100%">
       <source src="assets/video/fleetins.mp4" type="video/mp4" />
@@ -317,7 +317,7 @@ const Animation = ({ id }) => {
     </video>
   </div>
 
-</div>
+</div> */}
         <FaqSection />
        
         <PricingSection />

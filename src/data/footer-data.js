@@ -39,12 +39,12 @@ const footerData = {
                id:5,
                image:gallery5
             },
-            {
-               id:6,
-               image:gallery6
-            },
+            // {
+            //    id:6,
+            //    image:gallery6
+            // },
             
-         ]
+         ],
     },
 
     socialLink: {

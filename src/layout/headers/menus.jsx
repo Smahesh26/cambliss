@@ -7,7 +7,7 @@ const Menus = () => {
   return (
     <ul>
       {menu_data.map((menu, i) => (
-        <li key={i} className={` ${menu.active ? 'active has-dropdown' : ''} 
+        <li key={i} className={` ${menu.active ? 'active ' : ''} 
         ${menu.megaMenu ? 'has-dropdown has-mega-menu' : ''} 
         ${menu.hasDropdown ? 'has-dropdown' : ''}`} >
 

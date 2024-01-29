@@ -5,7 +5,7 @@ import HomeTwoBg from "@assets/img/bg/home-2-bg.png";
 import HomeTwoBgTwo from "@assets/img/bg/home-2-bg-2.png";
 import awardLogo from "@assets/img/new-award-logo/award-2.png";
 import logo1 from "@assets/img/logo/servicespage1.png";
-import logo2 from "@assets/img/logo/servicespage2.png";
+// import logo2 from "@assets/img/logo/servicespage2.png";
 
 
 const HeroTwo = () => {
@@ -51,11 +51,11 @@ const HeroTwo = () => {
                 </div><br/><br/><br/>
                 <div className="d-none d-sm-none d-md-block">
                   <div className="fm-hero-thumb-3">
-                    <Image
+                    {/* <Image
                       src={logo2}
                       style={{ width: "100%", height: "auto" }}
                       alt="img not found"
-                    />
+                    /> */}
                   </div>
                 </div>
                 <div className="d-none d-xxl-block">

@@ -360,16 +360,16 @@ const PortfolioSectionTwo = () => {
        // Add the website URL for the second item
     },
     
-    {
-      _id: "4",
-      // title: "FACESOFSTYLE",
-      image: servicesimage2,
-      // releaseDate: "2023-11-23",
-      // videoUrl: "your-youtube-video-id-2",
-      delay: "0.2s",
-      // portfolioItemClass: "your-portfolio-item-class-2",
+    // {
+    //   _id: "4",
+    //   title: "FACESOFSTYLE",
+    //   image: servicesimage2,
+    //   releaseDate: "2023-11-23",
+    //   videoUrl: "your-youtube-video-id-2",
+    //   delay: "0.2s",
+    //   portfolioItemClass: "your-portfolio-item-class-2",
      
-    },
+    // },
     
     {
       _id: "5",
