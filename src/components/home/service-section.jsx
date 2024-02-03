@@ -128,14 +128,14 @@ const ServiceSection = () => {
     {
       _id: "5",
       title: "UI/UX",
-      description: "From PPC to SEO, advertisting to content creation we cover all aspects of Digital Marketing",
+      description: "Innovation meets simplicity – our UI/UX designs seamlessly blend creativity with user experience",
       image: services1,
       delay: "1.2s",
     },
     {
       _id: "6",
       title: "Visual Production",
-      description: "From PPC to SEO, advertisting to content creation we cover all aspects of Digital Marketing",
+      description: "Visual storytelling that goes beyond the ordinary, creating extraordinary connections",
       image: services2,
       delay: "1.2s",
     },

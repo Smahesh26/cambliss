@@ -20,6 +20,13 @@ import imageOne from "@assets/img/logo/interiorDesigning/int1.jpeg";
 import imageTwo from "@assets/img/logo/interiorDesigning/int2.jpeg"; 
 import imageThree from "@assets/img/logo/interiorDesigning/int3.jpeg"; 
 import imageFour from "@assets/img/logo/interiorDesigning/int4.jpeg"; 
+import imageFive from "@assets/img/logo/interiorDesigning/int11.jpg";
+import imageSix from "@assets/img/logo/interiorDesigning/int22.jpg";
+
+import imageSeven from "@assets/img/logo/interiorDesigning/int33.jpg";
+
+import imageEight from "@assets/img/logo/interiorDesigning/int44.jpg";
+
 
 // import imageThree from "@assets/img/logo/Untitled design(4)/branding66.jpeg";  
 // import imageFour from "@assets/img/logo/brandingimagenew.jpg";  
@@ -167,7 +174,22 @@ const Fabrication = ({ id }) => {
       id: 4,
       img: imageThree,
     },
-   
+    {
+      id: 5,
+      img: imageFive,
+    },
+    {
+      id: 6,
+      img: imageSix,
+    },
+    {
+      id: 7,
+      img: imageSeven,
+    },
+    {
+      id: 8,
+      img: imageEight,
+    },
   ];
   
   return (
