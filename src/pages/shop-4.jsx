@@ -6,7 +6,7 @@ import ShopFourPage from '@components/shop-4'
 const ShopFour = () => {
     return (
         <Wrapper>
-            <SEO pageTitle="Faime" />
+            <SEO pageTitle="CAMBLISS" />
             <ShopFourPage />
         </Wrapper>
     );

@@ -6,7 +6,7 @@ import MovieDetailsPage from "../../components/movie-details/movie-details-main"
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Faime" />
+      <SEO pageTitle="CAMBLISS" />
       <MovieDetailsPage />
     </Wrapper>
   );

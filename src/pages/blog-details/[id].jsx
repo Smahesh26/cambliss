@@ -10,7 +10,7 @@ const MovieDetails = () => {
 
   return (
     <Wrapper>
-      <SEO pageTitle={"Faime"} />
+      <SEO pageTitle={"CAMBLISS"} />
       <BlogDetailsPage id={id} />
     </Wrapper>
   );

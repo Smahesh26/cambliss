@@ -5,7 +5,7 @@ import ShopSidebar from '@components/shop-sidebar'
 const index = () => {
    return (
       <Wrapper>
-         <SEO pageTitle="Faime" />
+         <SEO pageTitle="CAMBLISS" />
          <ShopSidebar />
       </Wrapper>
    );

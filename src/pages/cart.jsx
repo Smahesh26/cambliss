@@ -6,7 +6,7 @@ import Cart from '@components/cart'
 const index = () => {
     return (
         <Wrapper>
-            <SEO pageTitle="Faime" />
+            <SEO pageTitle="CAMBLISS" />
             <Cart />
         </Wrapper>
     );

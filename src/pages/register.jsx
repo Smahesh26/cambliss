@@ -7,7 +7,7 @@ import SEO from "@components/seo";
 export default function Register() {
   return (
     <Wrapper>
-      <SEO pageTitle='Faime' />
+      <SEO pageTitle='CAMBLISS' />
       <Breadcrumb title="Register" subTitle="Register" />
       <RegisterArea />
     </Wrapper>

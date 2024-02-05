@@ -6,7 +6,7 @@ import PortfolioMasonary from '@components/portfolio-masonary'
 const index = () => {
     return (
         <Wrapper>
-            <SEO pageTitle='Faime' />
+            <SEO pageTitle='CAMBLISS' />
             <PortfolioMasonary />
         </Wrapper>
     );

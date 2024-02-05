@@ -6,7 +6,7 @@ import HomeThere from '../components/home-there'
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle='Faime' />
+      <SEO pageTitle='CAMBLISS' />
       <HomeThere />
     </Wrapper>
   );

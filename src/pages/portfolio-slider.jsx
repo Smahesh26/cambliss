@@ -6,7 +6,7 @@ import PortfolioSlider from '@components/portfolio-slider'
 const index = () => {
     return (
         <Wrapper>
-            <SEO pageTitle='Faime' />
+            <SEO pageTitle='CAMBLISS' />
             <PortfolioSlider />
         </Wrapper>
     );

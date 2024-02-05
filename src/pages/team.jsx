@@ -6,7 +6,7 @@ import Team from '@components/team'
 const index = () => {
     return (
         <Wrapper>
-            <SEO pageTitle="Faime" />
+            <SEO pageTitle="CAMBLISS" />
             <Team />
         </Wrapper>
     );
