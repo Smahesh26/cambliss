@@ -239,7 +239,7 @@ const TeamSection = () => {
                   </span>
                   <h4 className="fm-director-name">
                     <Link
-                      href={`/team-details/${item._id}`}
+                      href={''}
                       className="team-name-clr"
                     >
                       {item.teamName}
