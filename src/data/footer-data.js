@@ -81,7 +81,7 @@ const footerData = {
             //home-one-data
             {
                 id: 1,
-                contactInfo: 'https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873',
+                contactInfo: 'https://www.google.com/maps/place/Cambliss/@17.302298,78.506638,16z/data=!4m6!3m5!1s0x3bcba28a18b09ea9:0xccbf37b932caddb6!8m2!3d17.3022976!4d78.5066378!16s%2Fg%2F11k7k_7k91?hl=en&entry=ttu',
                 contact: 'SURVEY NO: 75/2, BALAPUR, HYDERABAD, TELANGANA, 500005',
                 addressWrapperClass:'fa-sharp fa-solid fa-location-dot'
             },
