@@ -906,7 +906,7 @@
 
 .fm-about-style {
   position: relative;
-  background: #000;
+  background: #000000;
 }
 
 .fm-about-bg-thumb {
@@ -1353,7 +1353,7 @@
     &::before {
       position: absolute;
       content: "";
-      background: var(--clr-theme-1);
+      background:#ffbd39;
       height: 1px;
       width: 60px;
       left: -80px;
@@ -1363,7 +1363,7 @@
     &::after {
       position: absolute;
       content: "";
-      background: var(--clr-theme-1);
+      background: #ffbd39;
       height: 1px;
       width: 60px;
       left: -80px;
@@ -1492,7 +1492,7 @@
 
 // section title style 
 .section-subtitle {
-  color: var(--clr-theme-1);
+  color: #ffbd39;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.4;

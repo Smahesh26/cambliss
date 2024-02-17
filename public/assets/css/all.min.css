@@ -6665,6 +6665,7 @@
 }
 .fa-mug-hot:before {
   content: "\f7b6";
+  color: #ffbd39;
 }
 .fa-mug-marshmallows:before {
   content: "\f7b7";
@@ -7075,6 +7076,7 @@
 }
 .fa-people:before {
   content: "\e216";
+  color: #ffbd39;
 }
 .fa-people-arrows-left-right:before,
 .fa-people-arrows:before {
@@ -8820,6 +8822,8 @@
 }
 .fa-stars:before {
   content: "\f762";
+  color: #ffbd39;
+  
 }
 .fa-starship:before {
   content: "\e039";

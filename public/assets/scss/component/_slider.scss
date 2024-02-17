@@ -505,7 +505,7 @@
     font-size: 13px;
 
     &:hover {
-      background: var(--clr-theme-1);
+      background: #ffbd39;
       border-color: transparent;
     }
 
@@ -997,7 +997,7 @@
     }
 
     &:before {
-      background: #040811;
+      background: #000000;
       opacity: 0.3;
       position: absolute;
       left: 0;
@@ -1334,7 +1334,7 @@
 
   &:hover {
     a {
-      color: var(--clr-theme-1);
+      color:#ffbd39;
     }
   }
 }

@@ -185,6 +185,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  background-color: #000000;
 
   &::before {
     content: "";
@@ -453,6 +454,7 @@
   left: 0;
   right: 0;
   z-index: -1;
+  background-color: #000000;
 
   &:before {
     position: absolute;
@@ -683,7 +685,7 @@
 
     i {
       font-size: 16px;
-      color: var(--clr-theme-1);
+      color: #ffbd39;
       margin-top: 5px;
     }
 
@@ -734,7 +736,7 @@
 }
 .footer-copyright {
   a {
-    color: var(--clr-theme-1);
+    color: #ffbd39;
   }
 }
 .popup-image img {

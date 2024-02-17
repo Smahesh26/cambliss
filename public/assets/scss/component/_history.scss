@@ -53,7 +53,7 @@
     position: absolute;
     height: 40px;
     width: 2px;
-    background: var(--clr-theme-1);
+    background: #ffbd39;
     content: "";
     inset-inline-end: -32px;
     top: 12px;
@@ -81,7 +81,7 @@
   >i {
     height: 30px;
     width: 30px;
-    color: var(--clr-theme-1);
+    color: #ffbd39;
     font-size: 12px;
     border-radius: 50%;
     line-height: 30px;
@@ -107,7 +107,7 @@
     &:hover {
       .history-2-icon>i {
         color: #fcebd2;
-        background: var(--clr-theme-1);
+        background: #ffbd39;
       }
     }
   }

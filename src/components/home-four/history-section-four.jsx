@@ -10,7 +10,7 @@ const HistorySectionFour = () => {
     {
       id: 1,
       title: "Who we are",
-      iconOne: "far fa-mug-hot",
+      iconOne: "far fa-people",
       iconTwo: "far fa-check",
       description:
         "we are a team of young techno-savy minds melding our creativity with our enthusiasm ",

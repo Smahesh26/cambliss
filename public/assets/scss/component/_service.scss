@@ -6,7 +6,7 @@
 @use "../abstract" as *;
 
 .soft-greybg {
-  background-color: var(--clr-common-black);
+  background-color: #000000;
 }
 
 .fm-service-border-single {
@@ -107,7 +107,7 @@
   border: 1px solid #959595;
 
   &:hover {
-    background-color: var(--clr-theme-1);
+    background-color: #ffbd39;
     color: #fff;
     border-color: transparent;
   }
@@ -123,13 +123,13 @@
 }
 
 .fm-pricing-box-single {
-  background: var(--clr-common-white);
+  // background: var(--clr-common-white);
   padding: 35px 30px;
   text-align: center;
 }
 
 .fm-pricing-box-single.active {
-  background-color: var(--clr-theme-1);
+  background-color: #ffbd39;
 }
 
 .fm-pricing-box-single.active .fm-pricing-list li {
@@ -367,7 +367,7 @@
   position: absolute;
   inset-inline-start: -1px;
   top: -1px;
-  background: var(--clr-theme-1);
+  background: #ffbd39;
   clip-path: polygon(0 0, 0% 100%, 100% 0);
   width: 57px;
   height: 55px;

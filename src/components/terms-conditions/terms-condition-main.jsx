@@ -337,8 +337,8 @@ Cambliss Subscription and its affiliates shall not be liable for any direct, ind
                     </li>
                     <li>
                     <span className="list_item_text">
-                    9. Governing Law and Jurisdiction
-This Agreement shall be governed by and construed in accordance with the laws of [Jurisdiction]. Any disputes arising out of or in connection with this Agreement shall be subject to the exclusive jurisdiction of the courts of [Jurisdiction].
+                    9. Governing Law and Hyderabad
+This Agreement shall be governed by and construed in accordance with the laws of [Hyderabad]. Any disputes arising out of or in connection with this Agreement shall be subject to the exclusive Hyderabad of the courts of [Hyderabad].
 
 
                       </span>

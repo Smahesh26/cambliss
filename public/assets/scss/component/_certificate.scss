@@ -18,14 +18,14 @@
 }
 
 .fm-slider-prev {
-  color: var(--clr-theme-1);
-  border-color: var(--clr-theme-1);
+  color: #ffbd39;
+  border-color: #ffbd39;
   position: relative;
 
   &:before {
     position: absolute;
     height: 1px;
-    background: var(--clr-theme-1);
+    background: #ffbd39;
     width: 60px;
     content: "";
     inset-inline-start: -84px;
@@ -40,14 +40,14 @@
 }
 
 .fm-slider-next {
-  color: var(--clr-theme-1);
-  border-color: var(--clr-theme-1);
+  color: #ffbd39;
+  border-color: #ffbd39;
   position: relative;
 
   &:before {
     position: absolute;
     height: 1px;
-    background: var(--clr-theme-1);
+    background: #ffbd39;
     width: 60px;
     content: "";
     inset-inline-end: -84px;

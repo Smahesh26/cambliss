@@ -45,7 +45,7 @@
   font-size: 18px;
 
   display: inline-block;
-  color: var(--clr-theme-1);
+  color:#ffbd39;
   margin-bottom: 10px;
 }
 
@@ -97,9 +97,9 @@
   }
 
   &:hover {
-    background-color: var(--clr-theme-1);
+    background-color: var(#ffbd39);
     color: var(--clr-common-white);
-    border-color: var(--clr-theme-1);
+    border-color: var(#ffbd39);
   }
 }
 
@@ -184,7 +184,7 @@
 
   a {
     &:hover {
-      color: var(--clr-theme-1);
+      color: var(#ffbd39);
     }
   }
 }
@@ -210,7 +210,7 @@
   padding: 0 15px;
 
   &:hover {
-    border-color: var(--clr-theme-1);
+    border-color: var(#ffbd39);
     background: var(--clr-theme-1);
     color: #fff;
   }

@@ -1,8 +1,37 @@
 
 import Link from 'next/link';
 import React from 'react';
+import image1 from "@assets/img/logo/plans/2.png";
+import image2 from "@assets/img/logo/plans/3.png";
+import image3 from "@assets/img/logo/plans/4.png";
+import Image from 'next/image';
+
 
 const PricingSection = () => {
+   const imageData = [
+      {
+        id: 1,
+        src: image1,
+        alt: 'Image 1 Alt Text',
+        link: '/login',
+        pricingBtn:'Select Plan',
+      },
+      {
+        id: 2,
+        src: image2,
+        alt: 'Image 2 Alt Text',
+        link: '/login',
+        pricingBtn:'Select Plan',
+       
+      },
+      {
+        id: 3,
+        src: image3,
+        alt: 'Image 3 Alt Text',
+        link: '/login',
+        pricingBtn:'Select Plan',
+      },
+    ];
    const pricingData=[
       {
           id:1,
@@ -77,7 +106,7 @@ const PricingSection = () => {
                </div>
             </div>
 
-            <div className="animation__pricing wow fadeInUp" data-wow-delay="0.4s">
+            {/* <div className="animation__pricing wow fadeInUp" data-wow-delay="0.4s">
                <div className="row g-5">
                   {
                      pricingData.slice(0, 4).map((item) => (
@@ -104,7 +133,24 @@ const PricingSection = () => {
                      ))
                   }
                </div>
+            </div> */}
+          <div className="animation__pricing wow fadeInUp" data-wow-delay="0.4s">
+      <div className="row g-5">
+        {imageData.map((item) => (
+          <div className="col-xl-4 col-lg-4 col-md-4" key={item.id}>
+            <div className="fm-pricing-box-single">
+              <div className="fm-pricing-header mb-25">
+                <Image src={item.src} alt={item.alt} style={{width:"300px" , height:"auto"}}/>
+                
+              </div>
+              <div className="fm-pricing-footer" style={{backgroundColor:"#fff"}}>
+                                 <Link href="/contact" className="fm-pricing-btn">{item.pricingBtn}</Link>
+                              </div>
             </div>
+          </div>
+        ))}
+      </div>
+    </div>
          </div>
       </div>
    );
