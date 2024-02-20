@@ -2,42 +2,34 @@ import React from "react";
 import { useFormik } from "formik";
 import { contact_schema } from "@utils/validation-schema";
 import ErrorMsg from "./error-msg";
-import axios from "axios";
 import { toast } from "react-toastify";
 
 const ContactForm = () => {
-  const { handleChange, handleSubmit, handleBlur, errors, values, touched } =
-    useFormik({
-      initialValues: {
-        name: "",
-        email: "",
-        phnNo: "", // Added phone number field
-        subject: "",
-        msg: "",
-      },
-      validationSchema: contact_schema,
-      onSubmit: (values, { resetForm }) => {
-        resetForm();
-        const userinfo = {
-          name: values.name,
-          email: values.email,
-          phnNo: values.phnNo, // Include phone number in the form data
-          subject: values.subject,
-          message: values.msg,
-        };
-        axios
-          .post(`${process.env.BASE_URL}contact/contact-info`, userinfo)
-          .then((res) => {
-            if (res.data) {
-              toast.success("Contact Successfully");
-            }
-          })
-          .catch((err) => console.log(err));
-      },
-    });
+  const { handleChange, handleBlur, errors, values, touched, handleSubmit } = useFormik({
+    initialValues: {
+      name: "",
+      email: "",
+      phnNo: "",
+      subject: "",
+      msg: "",
+    },
+    validationSchema: contact_schema,
+    onSubmit: () => {
+      const mailtoLink = `mailto:sunainamahesh1@gmail.com?subject=${encodeURIComponent(
+        values.subject
+      )}&body=${encodeURIComponent(
+        `Name: ${values.name}\nEmail: ${values.email}\nPhone Number: ${values.phnNo}\nMessage: ${values.msg}`
+      )}`;
+      
+
+      window.location.href = mailtoLink;
+
+      toast.success("Contact Successfully");
+    },
+  });
 
   return (
-    <form id="contact-form" onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <div className="row">
         <div className="col-xl-6 col-lg-6">
           <input
