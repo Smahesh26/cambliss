@@ -219,7 +219,7 @@
 
   &:hover {
     border-color: transparent;
-    background: var(--clr-theme-1);
+    background: #ffbd39;
     color: var(--clr-common-white);
 
     span {
@@ -365,7 +365,7 @@
 .featured-rotate-btn {
   width: 94px;
   height: 94px;
-  background: var(--clr-theme-1);
+  background: #ffbd39;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -472,7 +472,7 @@
     border: 1px solid var(--clr-border-5);
 
     i {
-      color: var(--clr-theme-1);
+      color: #ffbd39;
     }
 
     &:hover {
@@ -526,7 +526,7 @@
 
   &.about-icon-clr {
     i {
-      color: var(--clr-theme-1);
+      color: #ffbd39;
     }
 
     &:hover {
@@ -547,7 +547,7 @@
   }
 
   &:hover {
-    background: var(--clr-theme-1);
+    background: #ffbd39;
     border-color: transparent;
 
     span {
@@ -589,8 +589,8 @@
   overflow: hidden;
 
   &:hover {
-    background-color: var(--clr-theme-1);
-    border-color: var(--clr-theme-1);
+    background-color: #ffbd39;
+    border-color: #ffbd39;
     color: var(--clr-common-white);
   }
 }
@@ -607,7 +607,7 @@
   color: #fff;
   position: relative;
   z-index: 5;
-  background: var(--clr-theme-1);
+  background: #ffbd39;
   transition: 0.5s;
   cursor: pointer;
 

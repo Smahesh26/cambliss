@@ -449,6 +449,8 @@ textarea::placeholder:focus {
 
 .section-spacing-bottom {
   padding-bottom: 120px;
+  background-image: url('../../img/logo/bckimg.png');
+  background-size: cover;
 
   @media #{$lg} {
 
